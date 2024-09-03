@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/sk.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="nav__menu" id="nav-menu" class="hero">
+        <nav>
+            <a href="index.html"><img src="photo/logo.png" width="150" class="logo"></a>
+            <ul class="nav_list">
+                <li class="nav__item"><a href="#home" class="nav__link active">HOME</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">ABOUT</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">PORTFOLIO</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">SERVICES</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>I'm <span>Soumya Ranjan Sahu</span></h1>
+            <br>
+            <p>This is my official portfolio website to shows all
+                <br><br>
+                Details and work experience of web development
+            </p><br>
+            <a href="photo/cv_001.jpg"target="_blank";>DOWNLOAD CV</a>
+        </div>
+        <div class="images">
+            <img src="photo/2nd.jpg" width="600" class="shape" >
+            <img src="photo/dp_no-bg_2.png" class="boy" >
+        </div>
+    </div>
+    <section class="about section " id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="photo/dp_no-bg_2.png" alt="">
+            </div>
+            
+            <div>
+                
+                <h2 class="about__subtitle">Hello! I’m Soumya Ranjan Sahu</h2>
+                <p class="about__text"> a Web Developer with over one years of experience specializing in front <br> end development. 
+                   <br> <br>  Experienced with all stages of the development cycle for dynamic web projects.Having an in-depth knowledge including advanced HTML, CSS, Python, Java, Javascript Strong background in management.</p>           
+            </div>                                   
+        </div>
+    </section>
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="skills__container bd-grid">          
+            <div>
+                <h2 class="skills__subtitle">Profesional Skills</h2>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">HTML</span>
+                    </div>
+                    <div class="skills__bar skills__html">
+
+                    </div>
+                    <div>
+                        <span class="skills__percentage">87%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-css3 skills__icon'></i>
+                        <span class="skills__name">CSS</span>
+                    </div>
+                    <div class="skills__bar skills__css">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">61%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-javascript skills__icon' ></i>
+                        <span class="skills__name">JAVASCRIPT</span>
+                    </div>
+                    <div class="skills__bar skills__js">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">42%</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-paint skills__icon'></i>
+                        <span class="skills__name">Graphic Design</span>
+                    </div>
+                    <div class="skills__bar skills__ux">
+                        
+                    </div>
+                    <div>
+                        <span class="skills__percentage">69%</span>
+                    </div>
+                </div>
+            </div>
+            <div>              
+                <img src="photo/wb_dev_01.jpg" height="350" width="400" alt="" class="skills__img">
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <section class="work section" id="work">
+        <h2 class="section-title">Services</h2>
+
+        <div class="work__container bd-grid">
+            <a href="#" class="work__img">
+                <img src="photo/facebook-statistics_01.png" alt="">
+            </a>
+            <a href="#" class="work__img">
+                <img src="photo/reddit-combo-19201.png" alt="">
+            </a>
+            <a href="#" class="work__img">
+                <img src="photo/linked_in.jpg" alt="">
+            </a>
+            <a href="#" class="work__img">
+                <img src="photo/quoralogo.jpg" alt="">
+            </a>
+            <a href="#" class="work__img">
+                <img src="photo/instagram-03.jpg" alt="">
+            </a>
+            <a href="#" class="work__img">
+                <img src="photo/twitter.jpg" alt="">
+            </a>
+        </div>
+    </section>
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__container bd-grid">
+            <form action="" class="contact__form">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="mail" placeholder="Email" class="contact__input">
+                <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                <input type="button" value="Send" class="contact__button button">
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__title">Soumya Ranjan Sahu</p>
+        <div class="footer__social">
+            <a href="https://www.youtube.com/@soumyaranjansahu9926" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
+            <a href="https://www.instagram.com/soumyaranjan172/ " class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://wa.me/917606066244?text=Hello!" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
+        </div>
+        <p class="footer__copy">&#169; SRS | 2023 </p>
+    </footer>
+    <!--
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy https://www.youtube.com/@soumyaranjansahu9926 </a>
+        <a href="#">&copy;2023 | SRS</a>
+    </footer>
+    -->
+    <script src="styles/script.js"></script>
+</body>
+</html>
